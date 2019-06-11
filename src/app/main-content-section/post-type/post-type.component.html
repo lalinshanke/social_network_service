@@ -1,0 +1,17 @@
+
+
+<app-content-type *ngIf="postType.category === 2" [postContentType]="postType"></app-content-type>
+<app-image-type *ngIf="postType.category === 1" [postImgType]="postType"></app-image-type>
+<app-poll-type *ngIf="postType.category === 3" [postPollType]="postType"></app-poll-type>
+
+
+
+<!-- <div class="postType">
+    <div *ngIf="postType.postTypeImg; then imageDiv; else contentDiv"></div>
+    <ng-template #imageDiv>
+      <div class="postTypeImg"><img src="{{ postType.postTypeImg }}" /></div>
+    </ng-template>
+    <ng-template #contentDiv>
+      <div class="postTypeContent">{{ postType.postTypeContent }}</div>
+    </ng-template>
+  </div> -->
