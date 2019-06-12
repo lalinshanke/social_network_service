@@ -16,6 +16,8 @@ import { SubComment2Component } from './main-content-section/comment-level/sub-c
 import { ImageTypeComponent } from './main-content-section/post-type/image-type/image-type.component';
 import { ContentTypeComponent } from './main-content-section/post-type/content-type/content-type.component';
 import { PollTypeComponent } from './main-content-section/post-type/poll-type/poll-type.component';
+import { PostLikesComponent } from './main-content-section/post-type/post-likes/post-likes.component';
+
 @NgModule({
    declarations: [
       AppComponent,
@@ -30,7 +32,8 @@ import { PollTypeComponent } from './main-content-section/post-type/poll-type/po
       SubComment2Component,
       ImageTypeComponent,
       ContentTypeComponent,
-      PollTypeComponent
+      PollTypeComponent,
+      PostLikesComponent
    ],
    imports: [
       BrowserModule,

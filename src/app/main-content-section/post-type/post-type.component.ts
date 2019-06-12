@@ -13,7 +13,7 @@ export class PostTypeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('shankarlal', this.postType)
+
   }
 
 }

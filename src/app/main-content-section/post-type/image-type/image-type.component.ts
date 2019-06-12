@@ -7,11 +7,14 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ImageTypeComponent implements OnInit {
 
+  likeData: any;
+
   @Input() postImgType: any;
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

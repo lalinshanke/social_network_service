@@ -1,20 +1,18 @@
-import { Component, OnInit, Input, OnChanges } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-content-section',
   templateUrl: './main-content-section.component.html',
   styleUrls: ['./main-content-section.component.css']
 })
-export class MainContentSectionComponent implements OnInit, OnChanges {
+export class MainContentSectionComponent implements OnInit {
 
   @Input() dataList: any;
 
   constructor() {
-    console.log('data list', this.dataList);
+    // console.log('Shankarlal', this.dataList);
   }
 
   ngOnInit() {}
-  ngOnChanges(){
-    console.log('data list', this.dataList);
-  }
+
 }
