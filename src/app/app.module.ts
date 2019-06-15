@@ -17,6 +17,7 @@ import { ImageTypeComponent } from './main-content-section/post-type/image-type/
 import { ContentTypeComponent } from './main-content-section/post-type/content-type/content-type.component';
 import { PollTypeComponent } from './main-content-section/post-type/poll-type/poll-type.component';
 import { PostLikesComponent } from './main-content-section/post-type/post-likes/post-likes.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
    declarations: [
@@ -33,7 +34,8 @@ import { PostLikesComponent } from './main-content-section/post-type/post-likes/
       ImageTypeComponent,
       ContentTypeComponent,
       PollTypeComponent,
-      PostLikesComponent
+      PostLikesComponent,
+      LoginComponent
    ],
    imports: [
       BrowserModule,
