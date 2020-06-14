@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 .login-page { position: absolute; z-index: 1; width: 100%; height: 100%; background-color: #fff; display: none}
 .chatApp-Logo {width: 140px;  top: 0; right:0; left:0; margin: 33px auto 0 auto;}
-=======
-.login-page { position: absolute; z-index: 1; width: 100%; height: 100%; background-color: #019ed1; display: none;}
-.chatApp-Logo {width: 140px;  top: 0; right:0; left:0; margin: 33px auto 0 auto;  border: solid 11px #fff; height: 149px; border-radius: 4px;}
->>>>>>> 92726dca39ac96127b3ff9ec555e231ba05e7643
 .chatApp-Logo img {width:100%;}
 .signIn-set {position: absolute; left: 0; right: 0; bottom: 50px; margin: 0 auto; text-align: center; }
 .signin { font-size: 16px; margin-bottom: 20px; color:#fff; }
